@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url(fundo.jpeg);
+    background-size: cover;
+    
+}
+
+.carousel {
+    
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    width: calc(500px * 4); /* Ajuste para o número de imagens */
+}
+
+.container img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    
+}
