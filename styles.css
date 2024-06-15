@@ -26,7 +26,7 @@ body {
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
-    width: calc(500px * 4); /* Ajuste para o número de imagens */
+    width: calc(500px * 5); /* Ajuste para o número de imagens */
 }
 
 .container img {
