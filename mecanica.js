@@ -27,3 +27,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateCarousel(); // Initialize carousel position
 });
+//teste para comentario
